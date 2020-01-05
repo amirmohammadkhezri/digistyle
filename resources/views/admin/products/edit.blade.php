@@ -54,7 +54,7 @@
                                     @foreach($product->photos as $photo)
 
                                         <div class="col-sm-3" id="updated_photo_{{$photo->id}}">
-                                            @dd($photo->path)
+                                          
                                             <img class="img-responsive" src="{{$photo->name}}" alt="photo_product">
                                             <button type="button" class="btn btn-danger" onclick="removeImages({{$photo->id}})">حذف</button>
                                         </div>
