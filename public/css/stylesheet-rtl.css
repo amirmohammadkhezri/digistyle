@@ -8,7 +8,9 @@
 div {
 	direction:rtl;
 }
-
+.span {
+    font-family: iransans;
+}
 .rev_slider_wrapper, div.rev_slider_wrapper, .rev_slider_wrapper div {
 	direction : ltr;
 }

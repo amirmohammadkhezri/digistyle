@@ -213,7 +213,6 @@
                             <button colot="red" type="button" data-toggle="dropdown" data-loading-text="بارگذاری ..."
                                     class="heading dropdown-toggle">
                                     <font color="#9a21c0" style="cursor:pointer">سبد خرید</font>
-                                <span id="cart-total">{{Session::has('cart') ? Session::get('cart')->totalQty . ' آیتم' : ''}} {{Session::has('cart') ? Session::get('cart')->totalPrice . ' تومان' : ''}}</span>
                             </button>
                             <ul class="dropdown-menu">
                                 @if(Session::has('cart'))
